@@ -1,0 +1,297 @@
+html {
+    font-size: 62.5%;
+    /*1rem = 10px*/
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 12%, 8%);
+}
+
+
+/*Mobile styles*/
+
+/*section rating mobile styles*/
+.container-rating-state {
+    display: block;
+    box-sizing: border-box;
+    width: 32.6rem;
+    height: 36rem;
+    padding: 2.5rem;
+    padding-right: 2.1rem;
+    border-radius: 2rem;
+    color: hsl(217, 12%, 63%);
+    background-color: #1F2630;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 25%);
+}
+
+.title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.paragraph {
+    margin-bottom: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn-rating-number {
+    display: flex;
+    justify-content: center;
+    width: 4.2rem;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 25%);
+}
+
+.btn-rating-number:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+
+.btn-rating-number:focus {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.button {
+    width: 28rem;
+    height: 4.5rem;
+    margin-top: 2rem;
+    line-height: 4.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* ******************************************* */
+/*section gratitude mobile styles*/
+
+.container-gratitude-state {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 32.6rem;
+    height: 36rem;
+    padding: 2.5rem;
+    border-radius: 2rem;
+    color: hsl(217, 12%, 63%);
+    background-color: #1F2630;
+}
+
+.image {
+    text-align: center;
+}
+
+.rating-selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.8rem;
+    line-height: 3.2rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 25%); 
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.gratitude {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/*desktop styles*/
+
+@media screen and (min-width: 440px) {
+
+    /*section rating desktop styles*/
+    
+    .container-rating-state {
+        display: block;
+        box-sizing: border-box;
+        width: 41rem;
+        height: 41.5rem;
+        padding: 2.5rem;
+        border-radius: 3rem;
+        color: hsl(217, 12%, 63%);
+        background-color: #1F2630;
+    }
+
+    .star {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4.8rem;
+        height: 4.8rem;
+        border-radius: 50%;
+        background-color: hsl(213, 19%, 25%);
+    }
+
+    .title {
+        font-size: 2.8rem;
+        font-weight: 700;
+        line-height: 4.2rem;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .paragraph {
+        margin-bottom: 3.2rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 2.2rem;
+    }
+
+    .btn-rating-number {
+        display: flex;
+        justify-content: center;
+        width: 4.8rem;
+        height: 4.8rem;
+        line-height: 4.8rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        color: hsl(217, 12%, 63%);
+        background-color: hsl(213, 19%, 25%);
+    }
+
+    .button {
+        margin: 3.2rem 1rem 3.2rem 1rem;
+        width: 34rem;
+        height: 4.5rem;
+        padding: 0;
+        line-height: 4.5rem;
+        text-align: center;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        border: none;
+        border-radius: 2rem;
+        cursor: pointer;
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+    }
+
+    /*section gratitude desktop styles*/
+
+.container-gratitude-state {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 41rem;
+    height: 41.5rem;
+    padding: 2.5rem;
+    border-radius: 3rem;
+    color: hsl(217, 12%, 63%);
+    background-color: #1F2630;
+}
+
+.image {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.rating-selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19.4rem;
+    line-height: 3.2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 25%); 
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.gratitude {
+    margin-bottom: 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    text-align: center;
+}
+}
+
+
+
+
+
