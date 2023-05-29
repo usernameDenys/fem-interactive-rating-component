@@ -4,9 +4,9 @@ const submitButton = document.querySelector('.button');
 const gratitudeState = document.querySelector('.container-gratitude-state');
 const ratingState = document.querySelector('.container-rating-state');
 
-function reply_click(clicked_id)
+function replyClick(clickedId)
 {
-    let ratingResult = clicked_id;
+    let ratingResult = clickedId;
     const ratingSelected = document.querySelector('.rating-selected');
     ratingSelected.innerHTML += 'You selected '+ ratingResult + ' out of 5';
 }
